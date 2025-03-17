@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
 import './Navbar.css';
 
@@ -7,10 +8,26 @@ function Navbar() {
             <nav className="nav-bar">
                 <img src="src\assets\logoPastaPng.webp" alt="Logo de empresa" className='nav-img'/>
                 <ul className="nav-bar-options">
-                    <li className="nav-bar-item">Home</li>
-                    <li className="nav-bar-item">Productos</li>
-                    <li className="nav-bar-item">Contacto</li>
-                    <li className="nav-bar-item">Ubicación</li>
+                    <li className="nav-bar-item">
+                        <Link to="/">
+                            Productos
+                        </Link>
+                    </li>
+                    <li className="nav-bar-item">
+                        <Link to="/categoria/Pastas">
+                            Pastas
+                        </Link>
+                    </li>
+                    <li className="nav-bar-item">
+                        <Link to="/categoria/Bebida">
+                            Bebidas
+                        </Link>
+                    </li>
+                    <li className="nav-bar-item">
+                        <Link to="/categoria/Agregados">
+                            Agregados
+                        </Link>
+                    </li>
                 </ul>
                 <CartWidget />
             </nav>
