@@ -1,4 +1,3 @@
-// ItemDetail.jsx
 import { Link, useParams } from 'react-router-dom';
 import './ItemDetail.css';
 import { useEffect, useState } from 'react';

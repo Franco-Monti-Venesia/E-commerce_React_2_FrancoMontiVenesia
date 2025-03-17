@@ -1,4 +1,3 @@
-// App.jsx
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';

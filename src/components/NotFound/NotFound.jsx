@@ -1,4 +1,3 @@
-// NotFound.jsx
 import './NotFound.css';
 
 function NotFound() {
