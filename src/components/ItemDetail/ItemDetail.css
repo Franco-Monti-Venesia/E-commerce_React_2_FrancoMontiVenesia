@@ -10,16 +10,18 @@
     border-radius: 1rem;
     width: 60vw;
     height: 70vh;
+    margin: auto;
+    padding: 1rem;
 }
 
 .card-detail-btn{
     padding: 1rem;
     border-radius: 1rem;
     border: none;
-    background-color: cornsilk;
+    background-color: #928962;
     cursor: pointer;
 }
 
 .card-detail-btn:hover{
-    background-color: bisque;
+    background-color: #b1a571;
 }

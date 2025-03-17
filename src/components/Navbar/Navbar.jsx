@@ -9,22 +9,22 @@ function Navbar() {
                 <img src="src\assets\logoPastaPng.webp" alt="Logo de empresa" className='nav-img'/>
                 <ul className="nav-bar-options">
                     <li className="nav-bar-item">
-                        <Link to="/">
+                        <Link className='nav-link' to="/">
                             Productos
                         </Link>
                     </li>
                     <li className="nav-bar-item">
-                        <Link to="/categoria/Pastas">
+                        <Link className='nav-link' to="/categoria/Pastas">
                             Pastas
                         </Link>
                     </li>
                     <li className="nav-bar-item">
-                        <Link to="/categoria/Bebida">
+                        <Link className='nav-link' to="/categoria/Bebida">
                             Bebidas
                         </Link>
                     </li>
                     <li className="nav-bar-item">
-                        <Link to="/categoria/Agregados">
+                        <Link className='nav-link' to="/categoria/Agregados">
                             Agregados
                         </Link>
                     </li>

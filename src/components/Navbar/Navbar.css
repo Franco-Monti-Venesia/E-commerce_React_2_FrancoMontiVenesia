@@ -33,6 +33,11 @@
     font-size: 1.3rem;
 }
 
-.nav-bar-item:hover{
+.nav-link {
+    color: #928962;
+    text-decoration: none;
+}
+
+.nav-link:hover {
     color: #b1a571;
 }
